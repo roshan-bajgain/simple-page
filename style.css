@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    text-align: center;
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    color: gray;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 186px;
+
+
+}
+.secondhalf{
+    width: 30%;
+
+}
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.text-big{
+    font-size: 35px;
+    margin-top: 250px;
+
+}
+.text-small{
+    font-size: 18px;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 4px 9px;
+    vertical-align: middle;
+}
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.paras{
+    padding: 0px 65px;
+}
+.imgfluid{
+    margin-top: 284px;
+    height: 206px;
+    width: 270px;
+}
+.secleft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
